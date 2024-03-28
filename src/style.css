@@ -8,15 +8,31 @@ h1 {
   font-size: 48px;
 }
 
+p {
+  margin: 0 auto;
+  line-height: 1.5;
+  max-width: 600px;
+}
+.contact-container {
+  display: block;
+  margin: auto;
+  width: 400px;
+  background: #dbeee9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .navigation-bar {
   text-align: center;
   padding: 20px;
-  color: olive;
+  word-spacing: 15px;
   font-size: 18px;
 }
 
-p {
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.5;
+.croissant-photo {
+  display: block;
+  margin: 20px auto;
+  border: 10px solid #346e5e;
+  border-radius: 5px;
 }
